@@ -1,5 +1,5 @@
 function displayMessage(message) {
-    console.log(message);
-}
-
-module.exports = displayMessage;
+    process.stdout.write(message + '\n'); // Add a newline for better formatting
+  }
+  
+  module.exports = displayMessage;
